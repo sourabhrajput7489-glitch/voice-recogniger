@@ -6,7 +6,7 @@ import os
 os.environ["ALSA_LOG_LEVEL"] = "none"
 import speech_recognition as sr
 
-# this function use for Recognizer
+# this function use for Recognizer added by Sourab Rajput
 R = sr.Recognizer()
 
 
