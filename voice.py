@@ -6,7 +6,7 @@ import os
 os.environ["ALSA_LOG_LEVEL"] = "none"
 import speech_recognition as sr
 
-
+# this function use for Recognizer
 R = sr.Recognizer()
 
 
@@ -85,44 +85,4 @@ elif "youtube" in choice:
    time.sleep(20)
    pyautogui.click()
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
